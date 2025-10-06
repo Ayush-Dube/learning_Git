@@ -247,3 +247,21 @@ Create tags after passing all tests or before deploying/releasing code.
 git stash is not so easy.
 
 
+---
+```
+git ls -a
+```
+
+.git is a hidden folder created when u do `git init`
+
+it is this folder which makes a repo a git repository.
+if you delete this folder and run git status ,    
+>`not a git repository (or any of the parent directories): .git`   
+
+
+```bash 
+git add <fileName>    // a particular file<fileNAme>.
+git add .             // everything at the present folder level.
+git add --all         // everything in the repo at any level.
+```
+
